@@ -154,11 +154,13 @@ header a{
 }
 #Horarios .contenedor{
     
+    
     text-align: center;
     align-items: center;
     overflow-x: auto;
     padding: 50px;
     background-color: rgb(249, 249, 252);
+    overflow-x: scroll;
 }
 #Horarios .contenedor h2{
     padding: 2em;
@@ -226,16 +228,30 @@ th{
         align-items: center;
         text-align: center;
         position: none;}
-    #somos-cultura .contenedor{
+    
         
-    }
+    
     #cursos .cursosytalleres{
         text-align: center;
         justify-content: center;
         align-items: center;}
-        
-    table {
-        display: table-cell;
-        vertical-align: middle;
+    
+    
+    tr {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+    th,
+    td {
+            width: 50%;
+        }
+    .horario {
+            position: sticky;
+            left: 0;
+            background-color: white;
+            z-index: 1;
+        }
+    div[class^="clase"] {
+            width: 100%;
+        }
     }
-}
