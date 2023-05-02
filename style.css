@@ -152,11 +152,12 @@ header a{
     transform: translate(-50%, -50%);
     color: rgb(249, 249, 252);
 }
-#Horarios .contenedor{
-    
-    
-    text-align: center;
+#Horarios{
     align-items: center;
+    text-align: center;
+}
+#Horarios .contenedor{
+   
     overflow-x: auto;
     padding: 50px;
     background-color: rgb(249, 249, 252);
@@ -166,35 +167,11 @@ header a{
     padding: 2em;
 }
 
-table{
-	width:100%; 
-	border-collapse:collapse;
-}
-table img{
-    border-radius: 50%;
-    background-color: rgb(234, 235, 202);
-}
-td{
-    
-	border:2px solid rgb(124, 103, 70);
-    padding-top: 15px;
-    align-items: center;
-    text-align: center;
-    
-}
+#Horarios iframe{
 
+    width: 778px;
+    height: 1200px;
 
-td .TablaCelda p{
-    
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: aliceblue;
-    
-}
-th{
-    
-    padding-bottom: 50px;
 }
 #Eventos .contenedor{
     display: flex;
@@ -237,21 +214,10 @@ th{
         align-items: center;}
     
     
-    tr {
-            flex-direction: row;
-            flex-wrap: wrap;
-        }
-    th,
-    td {
-            width: 50%;
-        }
-    .horario {
-            position: sticky;
-            left: 0;
-            background-color: white;
-            z-index: 1;
-        }
-    div[class^="clase"] {
-            width: 100%;
-        }
+    #Horarios iframe{
+
+        max-width: 767px;
+        height: 1200px;
+    
+    }
     }
