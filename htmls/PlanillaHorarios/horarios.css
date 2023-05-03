@@ -9,7 +9,8 @@
 
 #horarios .dia{    padding: 5px 0;
   background: #444;
-  text-align: center;
+  text-align: left;
+  padding-left: 30px;
   color: #fff;
   font-size: 14px;
   display: block;
