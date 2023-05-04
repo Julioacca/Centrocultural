@@ -53,6 +53,7 @@ header .logo{
     color: #9E5F85;
     font-size: 1.6em;
     
+    
 }
 header .contenedor{
     display: flex;
@@ -63,7 +64,7 @@ header .contenedor{
 header nav{
     display: flex;
     flex-direction:row;
-    text-align: left;
+    
     padding: 25px 30px;
 
 }
@@ -104,8 +105,8 @@ header a{
     text-shadow: 0.2px 0 0 #000, 0 -0.2px 0 #000;
     color:#0f0c0c;
     height: auto;
-    padding-top: 15vh;
-    padding-bottom: 15vh;
+    padding: 15vh 2vh;
+    
     background-color: rgb(249, 249, 252);
 }
 
@@ -128,9 +129,6 @@ header a{
     justify-content: center;
     margin: 25px;
     z-index: -0;
-    
-    
-
 }
 
 .curso{
@@ -175,7 +173,7 @@ header a{
 #Horarios iframe{
 
     width: 778px;
-    height: 1200px;
+    height: 988px;
 
 }
 #Eventos .contenedor{
@@ -185,6 +183,13 @@ header a{
     text-align: center;
     background-color: rgb(34, 30, 30);
     color: rgb(249, 249, 252);
+}
+#Eventos .contenedor .img-contenedor{
+
+    object-fit: contain;    
+}
+.video{
+    object-fit: contain;
 }
 
 
@@ -213,23 +218,35 @@ header a{
         justify-content: center;
                 
     }
+    header .logo{
+        margin: 0;
+        padding: 10px 30px;
+        font-weight: bold;
+        color: #9E5F85;
+        font-size: 1.6em;
+        
+    }
     header nav{
         flex-direction:column;
         align-items: center;
         text-align: center;
-        position: none;}
+        position: none;
+        padding: 10px 30px;}
     
     #somos-cultura .contenedor{
         padding-left: 25px;
         padding-right: 25px;
     }
-        
-    
     
     #Horarios iframe{
 
         max-width: 767px;
         height: 1200px;
-    
     }
     }
+
+    @media (max-width: 631px){
+        #Contacto .contenedor{
+            flex-direction:column;
+            justify-content: center;
+        }}
