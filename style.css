@@ -56,6 +56,19 @@ header .logo{
     
     
 }
+header .logo img{
+    height: 30px;
+    width: 50px;
+    color: #9E5F85;
+}
+#tempValor{
+    
+    margin: 0;
+    font-size: small;
+    color: #9E5F85;
+    padding: 0px 30px;
+    
+}
 header .contenedor{
     display: flex;
     flex-direction:row;
@@ -248,6 +261,9 @@ header a{
         flex-direction:column;
         justify-content: center;
                 
+    }
+    #tempValor{
+        display:none;
     }
     header .logo{
         margin: 0;

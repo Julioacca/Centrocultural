@@ -7,14 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Centro cultural</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/img/favicon-16x16.png">
     <!-- animacion -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 
 <body>
     <header>
+        
         <div class="contenedor">
-            <p class="logo animate__animated animate__flipInX">CCM</p>
+            
+            <p class="logo animate__animated animate__flipInX"><img src="img/logo.png" alt=""></p>
+            
             <nav>
                 <a href="#somos-cultura">Nosotros</a>
                 <a href="#cursos">Cursos</a>
@@ -22,14 +26,16 @@
                 <a href="#Eventos">Eventos</a>
                 <a href="#Contacto">Contacto</a>
                 <a href="loggin.html">Entrar</a>
+                <p id="tempValor"></p>
             </nav>
         </div>
     </header>
 
     <section id="hero">
         <div class="contenedor">
+            
             <h1> Centro cultural <br> <span> Mundos</span></h1>
-            <button>SUMATE YA</button>
+            <a href="htmls/Formularios/formularioRegistro.html"><button>SUMATE YA</button></a>
         </div>
     </section>
 
@@ -37,7 +43,7 @@
 
         <div class="contenedor">
             <div class="img-contanedor"></div>
-
+            
             <h2>Nosotros</h2>
             <p>Cursos y Talleres que te acercarán al mundo del arte y la creatividad! <br>
                 Somos un espacio dedicado a la enseñanza, la difusión y producción de arte y cultura.
@@ -54,39 +60,39 @@
             <div class="cursosytalleres">
 
                 <div class="curso">
-                    <a href="formularioCe.html">
+                    <a href="htmls/Formularios/formularioCeramica.html">
                         <img src="img/CartaCeramica.jpg" alt="imagen taller Ceramica">
                         <h3>Ceramica</h3>
                     </a>
                 </div>
 
                 <div class="curso">
-                    <a href="formularioFoto.html">
+                    <a href="htmls/Formularios/formularioFotografia.html">
                         <img src="img/CartaFotografia.jpg" alt="imagen taller Fotografia">
                         <h3>Fotografía</h3>
                     </a>
                 </div>
 
                 <div class="curso">
-                    <a href="formularioPintu.html">
+                    <a href="htmls/Formularios/formularioPintura.html">
                         <img src="img/CartaPintura.jpg" alt="imagen taller Pintura">
                         <h3>Pintura</h3>
                     </a>
                 </div>
                 <div class="curso">
-                    <a href="formularioCollage.html">
+                    <a href="htmls/Formularios/formularioCollage.html">
                         <img src="img/CartaCollage.jpg" alt="imagen taller Collage">
                         <h3>Collage</h3>
                     </a>
                 </div>
                 <div class="curso">
-                    <a href="formularioTeatro.html">
+                    <a href="htmls/Formularios/formularioTeatro.html">
                         <img src="img/CartaDanza.jpg" alt="imagen taller Teatro">
                         <h3>Teatro</h3>
                     </a>
                 </div>
                 <div class="curso">
-                    <a href="formularioDibujo.html">
+                    <a href="htmls/Formularios/formularioDibujo.html">
                         <img src="img/CartaDibujo.jpg" alt="imagen taller Dibujo">
                         <h3>Dibujo</h3>
                     </a>
@@ -128,7 +134,7 @@
         </div>
     </section>
     <script src="https://kit.fontawesome.com/cc8e9f9c0e.js" crossorigin="anonymous"></script>
-
+    <script src="api.js"></script>
 </body>
 
 </html>
